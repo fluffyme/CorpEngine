@@ -1,0 +1,10 @@
+.hexagon {
+    grid-row: 2/5;
+    grid-column: 2/4;
+
+    background-color: $color-italian-sky;
+    opacity: 0.5;
+
+    -webkit-clip-path: polygon(50% 100%, 100% 75%, 100% 25%, 50% 0, 0 25%, 0 75%, 5% 30%, 50% 5%, 100% 25%, 95% 70%, 50% 90%, 0 75%);
+    clip-path: polygon(50% 100%, 100% 75%, 100% 25%, 50% 0, 0 25%, 0 75%, 5% 30%, 50% 5%, 100% 25%, 95% 70%, 50% 90%, 0 75%);
+}

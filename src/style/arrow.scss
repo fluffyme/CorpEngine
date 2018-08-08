@@ -1,0 +1,15 @@
+.arrow {
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-bottom: 3rem solid $color-tiffany-blue;
+
+    transform: rotate(90deg);
+  
+    height: 0;
+    width: 0;
+  }
+
+  .arrow {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
